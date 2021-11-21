@@ -1,6 +1,8 @@
 # UtilityTools
 Web hacking utility tools in one .ipynb
 
+# Pro Tip: Run the jupyter notebook file in google colab for faster execution
+
 # Usage
 ## Subdomain Bruteforcer
 `wordlist` : The URL to wordlist (default already set)<br>`target`: Domain of the target
