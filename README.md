@@ -14,3 +14,13 @@ All the python scripts does the same things as .ipynb. Just the thing different 
 ## Custom Subdomain Bruteforcer
 `main_url`: The URL of the main web page<br>`target_host`: Hostname of the target<br>`protocol_prefix`: Protocol to use [http/https]<br>`port_suffix`: Port number to check<br>`wordlist`: URL of the wordlist<br><br>
 This tool checks if the content is matching with the main domain or not. If it matches, it excludes it, and if not, it is printed
+
+## Mass file finder
+`files`: enter the file to search at a list of domains/subdomains (comma seperated value, please)<br>`subdomainList`: Path to the file containing domains/subdomains (one line each)<br>`protocol`: Protocol to use (*http/https*)<br>`port`: Port to use (*1-65535*)<br>`timeoutSec`: Set timeout for each request
+
+This tool helps you find some specific files in the targeted domain list. E.g. find .git in all subdomains of target.com
+
+## Display IP addresses
+`hostnames`: Path to file containing hostnames to resolve IP of (1 per line)
+
+Print the ip address of all domains in list (useful to find host header injection, identifying proxy, etc.)
