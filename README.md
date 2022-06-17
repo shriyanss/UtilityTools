@@ -15,6 +15,10 @@ All the python scripts does the same things as .ipynb. Just the thing different 
 `main_url`: The URL of the main web page<br>`target_host`: Hostname of the target<br>`protocol_prefix`: Protocol to use [http/https]<br>`port_suffix`: Port number to check<br>`wordlist`: URL of the wordlist<br><br>
 This tool checks if the content is matching with the main domain or not. If it matches, it excludes it, and if not, it is printed
 
+## Custom subdomain checker
+`main_url`: This is the URL of main page to match the code with
+`wordlist`: This is the list of URLs containing URLs of subdomain
+
 ## Mass file finder
 `files`: enter the file to search at a list of domains/subdomains (comma seperated value, please)<br>`subdomainList`: Path to the file containing domains/subdomains (one line each)<br>`protocol`: Protocol to use (*http/https*)<br>`port`: Port to use (*1-65535*)<br>`timeoutSec`: Set timeout for each request
 
